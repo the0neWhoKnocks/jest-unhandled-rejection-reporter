@@ -1,0 +1,24 @@
+{
+  "name": "@noxx/jest-unhandled-rejection-reporter",
+  "version": "1.0.0",
+  "description": "A Jest reporter that tells you where Unhandled Rejections are emanating from",
+  "main": "reporter.js",
+  "scripts": {
+    "prepublishOnly": "npm run test",
+    "test": "node ./tests/testRunner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the0neWhoKnocks/jest-unhandled-rejection-reporter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the0neWhoKnocks/jest-unhandled-rejection-reporter/issues"
+  },
+  "homepage": "https://github.com/the0neWhoKnocks/jest-unhandled-rejection-reporter#readme",
+  "devDependencies": {
+    "cli-color": "^1.4.0",
+    "jest": "^24.8.0"
+  }
+}
