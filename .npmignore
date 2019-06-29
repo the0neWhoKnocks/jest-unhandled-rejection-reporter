@@ -1,0 +1,9 @@
+# directories
+tests
+
+# files
+*.log
+*.png
+.gitignore
+.travis.yml
+package-lock.json
